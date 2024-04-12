@@ -1,0 +1,58 @@
+body {
+    background-color: black;
+    color: rgb(245, 245, 144);
+}
+
+a, a:link, a:visited {
+    color: rgb(105, 248, 105);
+    text-decoration: none;
+    display: block;
+}
+
+li a:hover {
+    color: black;
+    background-color: rgb(105, 248, 105);
+}
+
+header {
+    margin: 15px auto;
+    background-color: lightgrey;
+    text-align: center;
+    display: flexbox;
+}
+
+#logo {
+    width: 200px;
+    display: block;
+    margin: auto;
+}
+
+section#conteudo {
+    margin: 15px auto;
+    width: 70%;
+    display: flexbox;
+}
+
+section#conteudo ul {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+section#conteudo li {
+    list-style: none;
+    width: 60px;
+}
+
+footer {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    display: flexbox;
+    text-align: center;
+    color:gray;
+}
+
+footer hr {
+    border: 1px dashed gray;
+}
